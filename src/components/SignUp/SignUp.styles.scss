@@ -1,0 +1,13 @@
+.singUp {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+
+    @media screen and (max-width: 360px) {
+        width: 250px;
+        }
+
+    .title {
+        margin: 10px 0;
+    }
+}
